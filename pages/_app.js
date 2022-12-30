@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Head from 'next/head';
 
 
+
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -11,6 +12,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       {/* <Layout> */}
       <Component {...pageProps} />
+
       {/* </Layout> */}
     </>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import Form from '../../components/Form'
 
 const internationalCallCentre = () => {
     return (
@@ -8,13 +9,14 @@ const internationalCallCentre = () => {
             <Navbar />
 
 
-            <img src='/images/about-rec.png'></img>
+            <img src='/images/c-4.webp'></img>
 
 
-            <div className='text-4xl text-center  text-gray-600 xl:mx-48 xl:py-8  font-semibold'>
-                International Student Call Centre   </div>
+            <div className='text-4xl font-semibold text-center text-[#00ccd3]  xl:mx-48 xl:py-8'>
+                International Student Call Centre
+            </div>
 
-            <div className='xl:mx-48 xl:py-4 xl:font-thin text-2xl text-justify'>
+            <div className='text-xl text-justify xl:mx-48 xl:py-4 xl:font-thin'>
                 <p className='py-2'>
                     International Student Call Centre has profound experience in providing call centre services to educational institutions. We leverage our
                     experience in serving institutions - from Colleges to Public Universities –
@@ -62,49 +64,68 @@ const internationalCallCentre = () => {
             </div>
 
 
-            <div className='xl:mx-48 py-8'>
-                <img src='/images/Admissions support info.png' className='h-full w-full'></img>
+            <hr className=' border-cyan-300' />
+
+            <div className='text-4xl font-semibold text-center text-[#00ccd3]  xl:mx-48 xl:py-8'>
+                Our Team Portfolio
             </div>
 
 
-            <div className='flex flex-wrap xl:mx-48 xl:mt-2'>
+            <div className='xl:ml-96'>
+                <img src='/images/infographics/Admissions support info.png' className='w-6/12 h-6/12 xl:ml-24'></img>
+            </div>
 
-                <div className='bg-gray-100 xl:h-48 xl:w-80 xl:m-4 xl:py-4'>
-                    <div className='xl:h-32 xl:w-48 bg-transparent xl:ml-10'>
+            <hr className=' border-cyan-300' />
+
+
+            <div className='flex flex-wrap xl:mx-48 xl:mt-2 '>
+
+                <div className='bg-white border-2 xl:h-48 xl:w-80 xl:m-4 xl:py-4 border-cyan-400'>
+                    <div className='bg-transparent xl:h-32 xl:w-48 xl:ml-10'>
                         <img src='/v-icons/voice-mail.png' className='w-28 h-28 xl:ml-16' />
                     </div>
                     <div className='xl:w-80 xl:pt-2 '>
-                        <div className='text-xl font-semibold text-center'>Attending queries over call
+                        <div className='text-lg font-semibold text-center'>Attending queries over call
                         </div>
 
                     </div>
                 </div>
-                <div className='bg-gray-100 xl:h-48 xl:w-80 xl:m-4 xl:py-4'>
-                    <div className='xl:h-32 xl:w-48 bg-transparent xl:ml-10'>
+                <div className='bg-white border-2 xl:h-48 xl:w-80 xl:m-4 xl:py-4 border-cyan-400'>
+                    <div className='bg-transparent xl:h-32 xl:w-48 xl:ml-10'>
                         <img src='/v-icons/chat.png' className='w-28 h-28 xl:ml-16' />
                     </div>
                     <div className='xl:w-80 xl:pt-2 '>
-                        <div className='text-xl font-semibold text-center'>Attending queries over Chats
+                        <div className='text-lg font-semibold text-center'>Attending queries over Chats
                         </div>
 
                     </div>
                 </div>
-                <div className='bg-gray-100 xl:h-48 xl:w-80 xl:m-4 xl:py-4'>
-                    <div className='xl:h-32 xl:w-48 bg-transparent xl:ml-10'>
+                <div className='bg-white border-2 xl:h-48 xl:w-80 xl:m-4 xl:py-4 border-cyan-400'>
+                    <div className='bg-transparent xl:h-32 xl:w-48 xl:ml-10'>
                         <img src='/v-icons/email.png' className='w-28 h-28 xl:ml-16' />
                     </div>
                     <div className='xl:w-80 xl:pt-2 '>
-                        <div className='text-xl font-semibold text-center'>Attending queries over Emails
+                        <div className='text-lg font-semibold text-center'>Attending queries over Emails
                         </div>
 
                     </div>
                 </div>
-                <div className='bg-gray-100 xl:h-48 xl:w-80 xl:m-4 xl:py-4'>
-                    <div className='xl:h-32 xl:w-48 bg-transparent xl:ml-10'>
+                <div className='invisible bg-white border-2 xl:h-48 xl:w-80 xl:m-4 xl:py-4 border-cyan-400 '>
+                    <div className='bg-transparent xl:h-32 xl:w-48 xl:ml-10'>
                         <img src='/v-icons/whatsapp.png' className='w-28 h-28 xl:ml-16' />
                     </div>
                     <div className='xl:w-80 xl:pt-2 '>
-                        <div className='text-xl font-semibold text-center'>Attending queries over Whatsapp
+                        <div className='text-lg font-semibold text-center'>Attending queries over Whatsapp
+                        </div>
+
+                    </div>
+                </div>
+                <div className='bg-white border-2 xl:h-48 xl:w-80 xl:m-4 xl:py-4 border-cyan-400 '>
+                    <div className='bg-transparent xl:h-32 xl:w-48 xl:ml-10'>
+                        <img src='/v-icons/whatsapp.png' className='w-28 h-28 xl:ml-16' />
+                    </div>
+                    <div className='xl:w-80 xl:pt-2 '>
+                        <div className='text-lg font-semibold text-center'>Attending queries over Whatsapp
                         </div>
 
                     </div>
@@ -112,6 +133,7 @@ const internationalCallCentre = () => {
 
 
             </div>
+            <Form />
             <Footer />
         </>
     )
