@@ -24,7 +24,7 @@ const Navbar = () => {
             {/* <Script src="/flowbite.js"></Script> */}
             {/* Navbar Starts */}
             <div className='container flex-wrap items-end justify-end hidden text-gray-500 bg-white xl:flex xl:w-full'>
-                <ul className='flex flex-row font-semibold space-x-28 xl:ml-48 xl:pr-48'>
+                <ul className='flex flex-row font-semibold space-x-28 xl:ml-48 xl:pr-28'>
 
                     <li className='xl:ml-32'>
                         <li><img src="/v-icons/v-loc.svg " className='inline px-2 ' /> India | +91 89 85 89 0000 </li>
